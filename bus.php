@@ -1,5 +1,5 @@
 <?php
 
-echo "hello world";
+    echo "Route : " . $_GET[route] . "Seat : " . $_GET[seat];
 
 ?>
