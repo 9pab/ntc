@@ -1,5 +1,6 @@
 <?php
 
-    echo "Route : " . $_GET[route] . "Seat : " . $_GET[seat];
+    echo $_GET[route];
+    echo $_GET[seat];
 
 ?>
