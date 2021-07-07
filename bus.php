@@ -1,6 +1,6 @@
 <?php
 
-    echo $_GET[route];
-    echo $_GET[seat];
+    echo $_GET["route"];
+    echo $_GET["seat"];
 
 ?>
