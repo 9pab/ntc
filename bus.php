@@ -17,6 +17,6 @@ if(!isset($_COOKIE[$cookie_name])) {
     echo "Value is: " . $_COOKIE[$cookie_name];
   }
   
-    echo "สายรถ : " . $route . " หมายเลขที่นั่ง : " . $seat . " วันที่/เวลา : " . $date;
+    echo "รหัสพนักงาน : " . $empid . "สายรถ : " . $route . " หมายเลขที่นั่ง : " . $seat . " วันที่/เวลา : " . $date;
 
 ?>
