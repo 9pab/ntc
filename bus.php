@@ -3,7 +3,7 @@ $cookie_name = "empid";
 if(!isset($_COOKIE[$cookie_name])) {
     $cookie_value = $_POST["e"];
     setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
-    header("Refresh:0");
+    if (!is_null($_POST["e"]) header("Refresh:0");
 }
 
 $empid = $_COOKIE[$cookie_name];
