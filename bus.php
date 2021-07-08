@@ -5,6 +5,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 }
 
+
 $empid = $_COOKIE[$cookie_name];
 $route = $_GET["r"];
 $seat = $_GET["s"];
