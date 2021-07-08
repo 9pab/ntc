@@ -1,5 +1,7 @@
 <?php
 
+$empid = "empid";
+
 if(!isset($_COOKIE[$empid])) {
     echo "Cookie named '" . $empid . "' is not set!";
   } else {
