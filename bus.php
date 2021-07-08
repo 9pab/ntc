@@ -2,7 +2,7 @@
 $cookie_name = "empid";
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 
-$empid = "empid";
+$empid = $_POST["e"];
 $route = $_GET["r"];
 $seat = $_GET["s"];
 date_default_timezone_set("Asia/Bangkok");
