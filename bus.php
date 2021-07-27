@@ -8,6 +8,8 @@ if(!isset($_COOKIE[$cookie_name])) {
     }
 }
 
+//test 
+
 $empid = $_COOKIE[$cookie_name];
 $route = $_GET["r"];
 $seat = $_GET["s"];
